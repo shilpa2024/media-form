@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.av{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.audio audio{
+    width: 400px;
+    height: 30px;
+    padding: 3px;
+}
+.video video{
+    /* height: 400px; */
+    width: 400px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <form>
+<div class="container">
+      
+    <label for="fname"> First Name :</label>
+      <input type="text" id="fname" placeholder="Shilpa" /><br /><br />
+      
+      <label for="lname"> Last Name :</label>
+      <input type="text" id="lname" placeholder="Dutta"/><br /><br />
+      
+      <label for="email"> Email :</label>
+      <input type="email" min="3" id="email" placeholder="sh@gmail.com" required /><br /><br />
+      
+      <label for="password"> Password :</label>
+      <input type="password" id="password" placeholder="**********" required/><br /><br />
+      
+      <label for="cpassword">Confirm Password :</label>
+      <input type="password" id="cpassword" placeholder="*********" required/><br /><br />
+      
+      <label for="age"> Age : </label>
+      <input class="age" type="number" min="20" max="150" id="age" placeholder="20" checked /><br /><br />
+      
+      <label for="gender">Gender:
+        
+        <input type="radio" id="male" value="male" name="gender"  />
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" value="female" name="gender" checked />
+        <label for="female">Female</label>
+        
+        <input type="radio" id="other" value="other" name="gender"  />
+        <label for="other">Other</label>
+        
+    </label><br><br>
+
+      <label for="terms">terms : </label>
+      <input type="checkbox" id="terms" checked /> I agree to terms and conditions.
+      <br /><br />
+
+      <button type="submit">Register</button>
+      <!-- <input type="submit"><br /><br /> -->
+      <!-- <input type="register" id="register"> -->
+    </div>
+    </form>
+    
+  </body>
+</html>
